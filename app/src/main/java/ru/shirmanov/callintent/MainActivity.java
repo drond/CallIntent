@@ -67,9 +67,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent emailIntent = new Intent(Intent.ACTION_SENDTO,
-                        Uri.fromParts("mailto","dimkaar1102@gmail.com", null));
+                        Uri.fromParts("mailto","drondwe@yandex.ru", null));
 
-                emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"dimkaar1102@mail.ru"});
+                emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"drondwe@yandex.ru"});
                 emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Hello!");
                 emailIntent.putExtra(Intent.EXTRA_TEXT, "A new dance turn from Android App!");
 
